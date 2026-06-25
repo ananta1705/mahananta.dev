@@ -1,5 +1,7 @@
 # 🚀 Mahananta | Personal Portfolio
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-View_Website-0D63F3?style=for-the-badge&logo=vercel)](https://mahananta-dev.vercel.app/)
+
 ![Portfolio Preview](./react-portfolio/public/apple-touch-icon.png)
 
 A modern, highly interactive, and fully responsive personal portfolio website built to showcase projects, skills, and professional experience.
