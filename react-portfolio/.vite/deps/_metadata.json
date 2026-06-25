@@ -1,0 +1,66 @@
+{
+  "hash": "4c187510",
+  "configHash": "fc8139e4",
+  "lockfileHash": "6be2ebf5",
+  "browserHash": "7f1c790f",
+  "optimized": {
+    "@gsap/react": {
+      "src": "../../node_modules/@gsap/react/src/index.js",
+      "file": "@gsap_react.js",
+      "fileHash": "62de7e13",
+      "needsInterop": false
+    },
+    "@studio-freight/lenis": {
+      "src": "../../node_modules/@studio-freight/lenis/dist/lenis.mjs",
+      "file": "@studio-freight_lenis.js",
+      "fileHash": "14e77092",
+      "needsInterop": false
+    },
+    "gsap": {
+      "src": "../../node_modules/gsap/index.js",
+      "file": "gsap.js",
+      "fileHash": "1f95ac7e",
+      "needsInterop": false
+    },
+    "gsap/ScrollTrigger": {
+      "src": "../../node_modules/gsap/ScrollTrigger.js",
+      "file": "gsap_ScrollTrigger.js",
+      "fileHash": "d96f005d",
+      "needsInterop": false
+    },
+    "gsap/TextPlugin": {
+      "src": "../../node_modules/gsap/TextPlugin.js",
+      "file": "gsap_TextPlugin.js",
+      "fileHash": "a2ceea7a",
+      "needsInterop": false
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "f5824c77",
+      "needsInterop": true
+    },
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "66b35b74",
+      "needsInterop": true
+    },
+    "react/jsx-dev-runtime": {
+      "src": "../../node_modules/react/jsx-dev-runtime.js",
+      "file": "react_jsx-dev-runtime.js",
+      "fileHash": "da2e6105",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "gsap-DgZztMML": {
+      "file": "gsap-DgZztMML.js",
+      "isDynamicEntry": false
+    },
+    "react-DiA8Tu0S": {
+      "file": "react-DiA8Tu0S.js",
+      "isDynamicEntry": false
+    }
+  }
+}

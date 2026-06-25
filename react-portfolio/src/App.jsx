@@ -33,9 +33,9 @@ export default function App() {
       if (savedTheme) {
         return savedTheme === 'dark';
       }
-      return window.matchMedia('(prefers-color-scheme: dark)').matches;
+      // If no saved theme, default to Light Mode (Sun) instead of system preference
+      return false;
     }
-    return false;
   });
 
   useEffect(() => {
