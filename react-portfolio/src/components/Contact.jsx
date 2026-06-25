@@ -137,11 +137,11 @@ export default function Contact() {
                 <div className="relative z-10 grid sm:grid-cols-2 gap-5">
                   <div className="space-y-2">
                     <label className="text-xs font-bold text-slate-500 dark:text-slate-400 uppercase tracking-widest ml-1">Your Name</label>
-                    <input type="text" name="name" value={formData.name} onChange={handleChange} required placeholder="John Doe" className="w-full bg-slate-50 dark:bg-slate-800/80 border-2 border-transparent rounded-2xl px-5 py-4 focus:outline-none focus:bg-white dark:focus:bg-slate-800 focus:border-blue-500/50 focus:ring-4 focus:ring-blue-500/10 transition-all font-medium text-slate-800 dark:text-white placeholder-slate-400 dark:placeholder-slate-500 shadow-sm" />
+                    <input type="text" name="name" value={formData.name} onChange={handleChange} required placeholder="Mahananta" className="w-full bg-slate-50 dark:bg-slate-800/80 border-2 border-transparent rounded-2xl px-5 py-4 focus:outline-none focus:bg-white dark:focus:bg-slate-800 focus:border-blue-500/50 focus:ring-4 focus:ring-blue-500/10 transition-all font-medium text-slate-800 dark:text-white placeholder-slate-400 dark:placeholder-slate-500 shadow-sm" />
                   </div>
                   <div className="space-y-2">
                     <label className="text-xs font-bold text-slate-500 dark:text-slate-400 uppercase tracking-widest ml-1">Email Address</label>
-                    <input type="email" name="email" value={formData.email} onChange={handleChange} required placeholder="john@example.com" className="w-full bg-slate-50 dark:bg-slate-800/80 border-2 border-transparent rounded-2xl px-5 py-4 focus:outline-none focus:bg-white dark:focus:bg-slate-800 focus:border-blue-500/50 focus:ring-4 focus:ring-blue-500/10 transition-all font-medium text-slate-800 dark:text-white placeholder-slate-400 dark:placeholder-slate-500 shadow-sm" />
+                    <input type="email" name="email" value={formData.email} onChange={handleChange} required placeholder="mahananta@gmail.com" className="w-full bg-slate-50 dark:bg-slate-800/80 border-2 border-transparent rounded-2xl px-5 py-4 focus:outline-none focus:bg-white dark:focus:bg-slate-800 focus:border-blue-500/50 focus:ring-4 focus:ring-blue-500/10 transition-all font-medium text-slate-800 dark:text-white placeholder-slate-400 dark:placeholder-slate-500 shadow-sm" />
                   </div>
                 </div>
                 
