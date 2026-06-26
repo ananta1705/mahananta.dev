@@ -15,6 +15,7 @@
 
 html {
   scroll-behavior: auto !important; /* Lenis handles this */
+  overflow-x: hidden;
 }
 
 body {
@@ -22,6 +23,7 @@ body {
   background-color: #ffffff;
   color: #475569;
   cursor: none; /* Custom cursor takes over on desktop */
+  overflow-x: hidden;
 }
 
 .dark body {
@@ -692,15 +694,7 @@ html.lenis, html.lenis body { height: auto; }
   will-change: transform;
 }
 
-/* ═══════════════════════════════════════════════════════════════
-   ANIMATIONS — helper classes
-═══════════════════════════════════════════════════════════════ */
-
-.about-animate,
-.exp-animate,
-.contact-animate {
-  /* GSAP sets initial states; we just mark these */
-}
+/* GSAP sets initial states; we just mark these in HTML without needing CSS definitions */
 
 /* ═══════════════════════════════════════════════════════════════
    SCROLL-REVEAL UTILITY (fallback if GSAP isn't running)

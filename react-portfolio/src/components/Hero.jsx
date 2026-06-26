@@ -119,12 +119,12 @@ export default function Hero() {
                 </span>
               </div>
               <div className="overflow-hidden">
-                <span className="hero-reveal-text inline-block text-5xl sm:text-7xl lg:text-[90px] xl:text-[110px] font-black text-slate-900 dark:text-white leading-[1.05] sm:leading-[1.0] tracking-tight">
+                <span className="hero-reveal-text inline-block text-4xl sm:text-7xl lg:text-[90px] xl:text-[110px] font-black text-slate-900 dark:text-white leading-[1.05] sm:leading-[1.0] tracking-tight">
                   Ananta Puti
                 </span>
               </div>
               <div className="overflow-hidden">
-                <span className="hero-reveal-text inline-block text-5xl sm:text-7xl lg:text-[90px] xl:text-[110px] font-black leading-[1.05] sm:leading-[1.0] tracking-tight text-blue-600">
+                <span className="hero-reveal-text inline-block text-4xl sm:text-7xl lg:text-[90px] xl:text-[110px] font-black leading-[1.05] sm:leading-[1.0] tracking-tight text-blue-600">
                   Maharani
                 </span>
               </div>

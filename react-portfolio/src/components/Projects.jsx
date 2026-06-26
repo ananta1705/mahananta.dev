@@ -297,7 +297,7 @@ function ProjectCard({ project, index }) {
 
           {/* Project index number */}
           <div className="absolute inset-0 flex items-center justify-center z-0">
-            <span className="text-white/10 font-extrabold" style={{fontSize: '10rem', lineHeight: 1}}>
+            <span className="text-white/10 font-extrabold text-[6rem] lg:text-[10rem] leading-none">
               {String(index + 1).padStart(2, '0')}
             </span>
           </div>

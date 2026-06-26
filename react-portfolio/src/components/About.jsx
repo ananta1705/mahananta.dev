@@ -168,7 +168,7 @@ export default function About() {
                 <img 
                   src="https://raw.githubusercontent.com/ananta1705/ananta1705/output/github-contribution-grid-snake-dark.svg" 
                   alt="GitHub Contribution Snake" 
-                  className="min-w-[700px] w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity hue-rotate-[250deg] saturate-150"
+                  className="min-w-[500px] md:min-w-[700px] w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity hue-rotate-[250deg] saturate-150"
                   onError={(e) => {
                     e.target.src = "https://ghchart.rshah.org/3b82f6/ananta1705"; 
                     e.target.className = "w-full h-auto opacity-90 hover:opacity-100 transition-opacity";
